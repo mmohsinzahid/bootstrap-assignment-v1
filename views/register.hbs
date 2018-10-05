@@ -1,0 +1,32 @@
+{{> header}}
+<div class="center">
+    <h3 class="h3_main">Please Register</h3>
+    <form method="post">
+        <div class="form-group">
+            <input type="text" autocomplete="false" placeholder="First Name" id="txt_fn" class="form-control" />
+        </div>
+        <div class="form-group">
+            <input type="text" autocomplete="false" placeholder="Last Name" id="txt_ln" class="form-control" />
+        </div>
+        <div class="form-group">
+            <input type="text" autocomplete="false" placeholder="Email Address" id="txt_email" class="form-control" />
+        </div>
+        <div class="form-group">
+            <input type="password" autocomplete="false" placeholder="Password" id="txt_pass" class="form-control" />
+        </div>
+        <div class="form-group">
+            <select id="txt_email" class="form-control" multiple>
+                <option value='1'>Admin</option>
+                <option value='2'>Team Lead</option>
+                <option value='3'>Senior Software Engineer</option>
+                <option value='4'>Junior Software Engineer</option>
+                <option value='5'>Senior QA</option>
+                <option value='6'>Junior QA</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <button name="btn_submit" class="btn btn-primary" style="width:100%;">Register</button>
+        </div>
+    </form>
+</div>
+{{> footer}}

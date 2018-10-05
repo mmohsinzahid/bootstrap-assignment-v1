@@ -1,0 +1,108 @@
+body{
+    font-family: 'Font Awesome 5 Free';
+    background-color: #17c45f;
+}
+
+.h3_main{
+    color:#ffffff;
+    padding: 10px 0px;
+}
+
+.main-container{
+    background-color: #17c45f;
+    height: 100vh;
+}
+
+.center{
+    margin:0 auto;
+    max-width: 600px;
+    width: 100%;
+}
+
+.white-txt{
+    color: #ffffff;
+}
+
+.white-box{
+    padding:15px;
+    background-color: #ffffff;
+}
+
+.white-box label{
+    font-weight: 700;
+    color:#353638;
+}
+
+.icon-plus{
+    color: #3855D4;
+}
+
+input[type=reset]{
+    background: none;
+    border: none;
+    color: #3855D4;
+}
+
+.right-link{
+    padding-top:10px;
+    color: #3855D4;
+}
+
+.list-view{
+    width:100%;
+}
+
+.list-view .row{
+    margin: 0px;
+    padding:10px 0px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #bbbbbb;
+}
+
+.list-view > :first-child{
+    background-color: #e6ecf7;
+}
+
+
+.list-view > :last-child{
+    border: none;
+}
+
+.list-view a.fa-eye{
+    color: #3855D4;
+}
+
+.detail-box{
+    border:1px solid #3855D4;
+    border-radius: 5px;
+}
+
+.detail-box div{
+    padding: 5px;
+    margin: 0px;
+}
+
+.detail-box > :first-child{
+    background-color: #3855D4;
+    color:#ffffff;
+    font-weight: bold;
+}
+
+.comment-box{
+    border:1px solid #e6ecf7;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.comment-box div{
+    padding: 5px;
+    margin: 0px;
+}
+.comment-box > :first-child{
+    background-color: #e6ecf7;
+    font-weight: bold;
+}
+
+.comment-box .comment-by{
+    border
+}
